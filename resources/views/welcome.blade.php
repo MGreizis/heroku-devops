@@ -45,6 +45,10 @@
                     </svg>
                 </div>
 
+                <h2>Hey, don't look down there. Look at me instead :)</h2>
+                <h3>I heard you want to test my CRUD module, so just click the button and you can be a tester</h3>
+                <a href="{{ route('products.index') }}" class="btn btn-primary">Test me!</a>
+
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
