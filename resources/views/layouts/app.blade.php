@@ -76,7 +76,7 @@
                     </ul>
                 </div>
             </div>
-            <p class="nav-item pr-3">
+            <p class="nav-item">
                 By: Mārtiņš Greizis
             </p>
         </nav>

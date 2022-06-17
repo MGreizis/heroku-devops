@@ -27,7 +27,8 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('products.create');
+        abort(404);
+        //return view('products.create');
     }
 
     /**
@@ -46,7 +47,7 @@ class ProductController extends Controller
         Product::create($request->all());
 
         return redirect()->route('products.index')
-                        ->with('success','Product created successfully.');
+                         ->with('success','Product created successfully.');
     }
 
     /**
@@ -57,7 +58,8 @@ class ProductController extends Controller
      */
     public function show(Product $product)
     {
-        return view('products.show',compact('product'));
+        abort(500);
+        //return view('products.show',compact('product'));
     }
 
     /**
